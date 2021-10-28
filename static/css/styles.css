@@ -1,0 +1,234 @@
+*,
+
+html {
+  font-size: 62.5%;
+}
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(243, 240, 78, 0.404),
+      rgba(104, 102, 11, 0.253)
+    ),
+    url(../images/hat.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  position: relative;
+}
+.heading-primary--main{
+    color:blue
+}
+.btn{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  font-size: 1.6rem;
+  background-color: white;
+}
+.header__text-box{
+    text-align: center;
+}
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading-primary--main {
+  display: block;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+  animation-name: moveInleft;
+  animation-duration: 1s;
+  /*animation-delay: 2s;*/
+  /* animation-iteration-count: 3;*/
+  animation-timing-function: ease-out;
+}
+.heading-primary--sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.40rem;
+  animation-name: moveInright;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  margin-bottom: 60px;
+}
+
+
+.section-tours{
+  background-color:rgba(192,192,192,0.2);
+  padding:20rem 0 15rem 0;
+
+
+
+}
+.u-center-text {
+  text-align: center;
+}
+.u-margin-bottom-8 {
+  margin-bottom: 8rem;
+}
+.row {
+  max-width: 114rem; /*$grid-width;*/
+  /*background-color: #eee;*/
+  margin: 0 auto;
+  /*$gutter-vertical*/
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem; /*$gutter-vertical*/
+}
+.col-1-of-3:not(:last-child),
+.col-1-of-2:not(:last-child),
+.col-2-of-3:not(:last-child),
+.col-2-of-4:not(:last-child),
+.col-3-of-4:not(:last-child),
+.col-1-of-4:not(:last-child) {
+  margin-right: 6rem;
+}
+[class^="col-"] {
+  float: left;
+}
+.col-1-of-3 {
+  width: calc((100% - 18rem) / 3);
+  /* background-color: rgb(255, 255, 255);*/
+  float:left;
+}
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 52rem;
+  border:none;
+
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+.card_side {
+  height: 52rem;
+  font-size: 2rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.card__side--front{
+  background-color:white;
+}
+.card__side--back-1 {
+  background-image: linear-gradient(
+    to right bottom,
+    yellow,
+    rgba(255, 255, 255, 0.659)
+  );
+}
+.card__side--back-2 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(29, 39, 181),
+    rgba(255, 255, 255, 0.659)
+  );
+}
+.card__side--back-3 {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(196, 26, 26),
+    rgba(255, 255, 255, 0.659)
+  );
+}
+.card__side--back {
+  transform: rotateY(180deg);
+}
+.card_details {
+  padding: 3rem;
+}
+.card_details ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+.card_details ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.card_details li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.card_cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+}
+.card_price-box {
+  text-align: center;
+  margin-bottom: 8rem;
+  color: #fff;
+}
+.card_price-only {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.card_price-value {
+  font-size: 6rem;
+  font-weight: 100;
+}
+.btn--green {
+  background-color: rgb(205, 200, 63);
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+}
+.section-book{
+position:relative;
+
+
+}
+.book-form{
+  margin:0;
+  padding:20rem 20rem;
+  position:absolute;
+  top:37%;
+  left:27%;
+
+
+
+
+
+
+
+}
+form{
+  font-size:3rem;
+
+}
+.id_name{
+  color:blue;
+}
