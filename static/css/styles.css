@@ -207,16 +207,21 @@ html {
   animation-duration: 1s;
 }
 .section-book{
-position:relative;
+  position:relative;
+  padding:15rem 15rem;
+  background-image: linear-gradient(to right bottom, yellow,
+  rgba(255,255,255,0.6));
+  background-size:cover;
 
 
 }
-.book-form{
-  margin:0;
-  padding:20rem 20rem;
-  position:absolute;
-  top:37%;
-  left:27%;
+.book-form {
+  margin: 0;
+  padding: 12rem 15rem;
+  margin-left: 5rem;
+  margin-bottom:20rem;
+
+
 
 
 
@@ -231,4 +236,10 @@ form{
 }
 .id_name{
   color:blue;
+}
+form{
+  padding:15rem 30rem;
+  background-color:white;
+
+
 }
