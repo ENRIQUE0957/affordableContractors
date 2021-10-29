@@ -239,7 +239,6 @@ form{
 }
 form{
   padding:15rem 30rem;
-  background-color:white;
-
-
+  background-imager-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50% ), url(../img/nat-10.jpg);
 }
+
