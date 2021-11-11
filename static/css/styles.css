@@ -7,13 +7,13 @@ html {
   height: 95vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(243, 240, 78, 0.404),
+      rgba(78, 125, 243, 0.404),
       rgba(104, 102, 11, 0.253)
     ),
     url(../images/hat.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+
   position: relative;
 }
 .heading-primary--main{
@@ -22,7 +22,7 @@ html {
 .btn{
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 4rem;
+  padding: 2rem 5rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
@@ -30,7 +30,8 @@ html {
   animation-name: moveInBottom;
   animation-duration: 1s;
   font-size: 1.6rem;
-  background-color: white;
+  background-color:white;
+
 }
 .header__text-box{
     text-align: center;
@@ -44,30 +45,34 @@ html {
 }
 .heading-primary--main {
   display: block;
-  font-size: 5rem;
+  font-size: 6.5rem;
   font-weight: 400;
-  letter-spacing: 3.5rem;
+  letter-spacing: 2.5rem;
   animation-name: moveInleft;
   animation-duration: 1s;
   /*animation-delay: 2s;*/
   /* animation-iteration-count: 3;*/
   animation-timing-function: ease-out;
+  color:white;
+  text-transform:uppercase;
 }
 .heading-primary--sub {
   display: block;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 400;
   letter-spacing: 1.40rem;
   animation-name: moveInright;
   animation-duration: 1s;
   animation-timing-function: ease-out;
   margin-bottom: 60px;
+  color:white;
+  text-transform:uppercase;
 }
 
 
 .section-tours{
   background-color:rgba(192,192,192,0.2);
-  padding:20rem 0 15rem 0;
+  padding:13rem 0 10rem 0;
 
 
 
@@ -93,7 +98,7 @@ html {
 .col-2-of-4:not(:last-child),
 .col-3-of-4:not(:last-child),
 .col-1-of-4:not(:last-child) {
-  margin-right: 6rem;
+  margin-right: 8rem;
 }
 [class^="col-"] {
   float: left;
@@ -137,7 +142,7 @@ html {
 .card__side--back-1 {
   background-image: linear-gradient(
     to right bottom,
-    yellow,
+    blue,
     rgba(255, 255, 255, 0.659)
   );
 }
@@ -151,7 +156,7 @@ html {
 .card__side--back-3 {
   background-image: linear-gradient(
     to right bottom,
-    rgb(196, 26, 26),
+    blue,
     rgba(255, 255, 255, 0.659)
   );
 }
@@ -209,7 +214,7 @@ html {
 .section-book{
   position:relative;
   padding:15rem;
-  background-image: linear-gradient(to right bottom, yellow,
+  background-image: linear-gradient(to right bottom, #003dff52,
   rgba(255,255,255,0.6));
   background-size:100%;
 
@@ -254,4 +259,7 @@ margin-right:4rem;
 }
 p{
   align-items: center;
+}
+.heading-secondary{
+  margin-bottom:3rem;
 }
