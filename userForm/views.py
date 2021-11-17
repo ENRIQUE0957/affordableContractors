@@ -8,6 +8,7 @@ def affordableContractors(request):
         if form.is_valid():
             name = request.POST['name']
             email = request.POST['email']
+
             #what we want to happen
             form.save(commit=True)
             send_mail(
