@@ -16,6 +16,9 @@ html {
 
   position: relative;
 }
+.card{
+  background-color:transparent;
+}
 .heading-primary--main{
     color:blue
 }
@@ -79,6 +82,7 @@ html {
 }
 .u-center-text {
   text-align: center;
+
 }
 .u-margin-bottom-8 {
   margin-bottom: 8rem;
@@ -137,7 +141,7 @@ html {
   overflow: hidden;
 }
 .card__side--front{
-  background-color:white;
+  background-image: linear-gradient( to right bottom, rgb(29, 39, 181), rgba(255, 255, 255, 0.659) );
 }
 .card__side--back-1 {
   background-image: linear-gradient(
@@ -173,11 +177,15 @@ html {
 }
 .card_details ul li {
   text-align: center;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1.3rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius:6px;
+  margin-bottom:1rem;
 }
-.card_details li:not(:last-child) {
+.card_details li {
   border-bottom: 1px solid #eee;
+  border-left:1px solid #eee;
 }
 .card_cta {
   position: absolute;
@@ -201,8 +209,8 @@ html {
   font-weight: 100;
 }
 .btn--green {
-  background-color: rgb(205, 200, 63);
-  color: white;
+  background-color:black;
+  color:white;
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 3rem;
@@ -210,6 +218,7 @@ html {
   font-size: 1.6rem;
   animation-name: moveInBottom;
   animation-duration: 1s;
+
 }
 .section-book{
   position:relative;
@@ -262,4 +271,12 @@ p{
 }
 .heading-secondary{
   margin-bottom:3rem;
+  font-size:3rem;
+}
+h4{
+  color:white;
+  text-align:center;
+  font-size:2.5rem;
+  font-weight:600;
+  text-transform:uppercase;
 }
