@@ -141,14 +141,17 @@
 
 
     <div class = "book-form">
+
         <form method = 'POST'>
-    {{ form.as_p }}
+    {{ form }}
     {% csrf_token %}
 
 <input type = 'submit' class = "btn btn-primary" value = 'Submit'>
 </form>
+    
 
     </div>
+
 </section>
 
 </body>
