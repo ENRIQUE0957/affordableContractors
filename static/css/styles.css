@@ -25,15 +25,17 @@ html {
 .btn{
   text-transform: uppercase;
   text-decoration: none;
-  padding: 2rem 5rem;
+  padding: 3rem 5.5rem;
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
   animation-name: moveInBottom;
   animation-duration: 1s;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   background-color:white;
+  font-family:sans-serif;
+  color:dimgray;
 
 }
 .header__text-box{
@@ -48,9 +50,9 @@ html {
 }
 .heading-primary--main {
   display: block;
-  font-size: 6.5rem;
-  font-weight: 400;
-  letter-spacing: 2.5rem;
+  font-size: 6.2rem;
+  font-weight: 300;
+  letter-spacing: 4rem;
   animation-name: moveInleft;
   animation-duration: 1s;
   /*animation-delay: 2s;*/
@@ -58,24 +60,28 @@ html {
   animation-timing-function: ease-out;
   color:white;
   text-transform:uppercase;
+  font-family:sans-serif;
+  line-height:1.4;
 }
 .heading-primary--sub {
   display: block;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 400;
-  letter-spacing: 1.40rem;
+  letter-spacing: 1.3rem;
   animation-name: moveInright;
   animation-duration: 1s;
   animation-timing-function: ease-out;
   margin-bottom: 60px;
   color:white;
   text-transform:uppercase;
+  font-family:sans-serif;
+  line-height:2;
 }
 
 
 .section-tours{
-  background-color:rgba(192,192,192,0.2);
-  padding:13rem 0 10rem 0;
+  background-color:white;
+  padding:10rem 0 12rem 0;
 
 
 
@@ -178,12 +184,15 @@ html {
 .card_details ul li {
   text-align: center;
   font-size: 1.3rem;
-  padding: 2rem;
+  padding: 2.6rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius:6px;
-  margin-bottom:1rem;
+  margin-bottom:2.2rem;
   transform:translateY(-1.5rem) scale(1.03);
+  font-family:sans-serif;
+  color:white;
 }
+
 .card_details li {
   border-bottom: 1px solid #eee;
   border-left:1px solid #eee;
@@ -206,15 +215,16 @@ html {
   text-transform: uppercase;
 }
 .card_price-value {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 100;
+  font-family:fantasy;
 }
 .btn--green {
-  background-color:black;
+  background-color:dimgrey;
   color:white;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1.5rem 3rem;
+  padding: 2rem 3.4rem;
   border-radius: 10rem;
   font-size: 1.6rem;
   animation-name: moveInBottom;
@@ -234,18 +244,21 @@ html {
   margin: 0;
   padding: 9rem 10rem;
   margin-left: 5rem;
-  margin-bottom:20rem;
+  margin-bottom: 20rem;
 
-
-
-
-
-
-
-
+}
+.card_heading{
+font-family:sans-serif;
+  color:#e0e0e0;
+  font-size:3.1rem;
+  margin-bottom:2.1rem;
 
 
 }
+
+
+
+
 form{
   font-size:4rem;
 
@@ -276,7 +289,9 @@ p{
 }
 .heading-secondary{
   margin-bottom:3rem;
-  font-size:3rem;
+  font-size:4.6rem;
+  color:dimgrey;
+  font-family:sans-serif;
 }
 h4{
   color:white;
