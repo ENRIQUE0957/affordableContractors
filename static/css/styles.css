@@ -35,6 +35,7 @@ body{
   position: relative;
   animation-name: moveInBottom;
   animation-duration: 1s;
+  animation-timing-function: ease-out;
   font-size: 1.5rem;
   background-color:white;
   font-family:sans-serif;
@@ -71,6 +72,51 @@ body{
   text-transform:uppercase;
   font-family:sans-serif;
   line-height:1.4;
+  animation-name: moveInleft;
+  animation-duration:1s;
+  animation-timing-function:ease-out;
+
+}
+/*keyframes css for title*/
+@keyframes moveInleft{
+  0%{
+    opacity:0;
+    transform:translateX(-10rem);
+  }
+  80%{
+    transform:translateX(-1rem);
+  }
+  100%{
+    opacity:100;
+    transform:translate(0)
+  }
+
+}
+@keyframes moveInRight{
+  0%{
+    opacity:0;
+    transform:translateX(10rem);
+  }
+  80%{
+    transform:translateX(1rem);
+  }
+  100%{
+    opacity:100;
+    transform:translate(0)
+  }
+
+}
+@keyframes moveInBottom{
+  0%{
+    opacity:0;
+    transform:translateY(5rem);
+  }
+  100%{
+    opacity:0;
+    transform:translate(0)
+  }
+
+
 }
 .heading-primary--sub {
   display: block;
@@ -85,6 +131,9 @@ body{
   text-transform:uppercase;
   font-family:sans-serif;
   line-height:2;
+  animation-name:moveInRight;
+  animation-duration:1s;
+  animation-timing-function: ease-out;
 }
 
 
@@ -403,7 +452,7 @@ label{
 }
 .copyright-footer{
   float:right;
-  font-size:1.3rem;
+  font-size:2.3rem;
   display:flex;
   color:#f5f7ff;
   letter-spacing:0.5px;
